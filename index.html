@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>Roasty</title>
+   <link rel="stylesheet" href="CSS/main.css">
+   <link rel="stylesheet" href="CSS/bootstrap.css">
+</head>
+<body>
+    <nav class = 'navbar bg-dark'>
+        <div class="container-fluid">
+            
+            <a class="navbar-brand text-light">Roasty</a>
+            <ul class="navbar-nav me-auto d-flex flex-row">
+                <li class="nav-item me-2">
+                    <a class="text-light nav-link" id="cartegory-link" href="#">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-light nav-link" href="#" id="countries-link">Countries</a>
+                </li>
+            </ul>
+        <form class="d-flex">
+            <input class="form-control" type="text" placeholder="Search" id="search"/>
+            <button class="btn btn-outline-info ms-2" id="searchBtn">Search</button>
+        </form>
+        </div>
+    </nav>
+    <div class="container" id="main-container">
+     
+        <div class="row" id="random meal">
+            <!-- <div class="card col-12">
+                <div class="row">
+                    <div class="col-6 card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                
+                        <img src="fish.jpg" class="card-img" id="rand-meal-img">
+                    </div>
+                    <div class="col-6">  
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="row" id="meal-categories">
+            <div class="card col-4">
+                <img class="card-img-top" src="fish.jpg"/>
+                <h4 class = "card-title">fish</h4>
+            </div>
+        </div>
+
+        <div class="row mt-3" id="meal-countries">
+            <span class="col-2 me-1 mb-1 badge text-bg-success">Kenyan</span>
+        </div>
+    </div>
+
+    
+
+
+    <script type="text/javascript" src="JS/bootstrap.js"></script>
+    <script type="text/javascript" src="JS/index.js"></script>
+</body>
+</html>
